@@ -27,12 +27,14 @@ public class HomeWorkApp {
 
     }
     public static void positiveIntCheck(){
-       byte value = 0;
+       byte value = 10;
        boolean checkValue = false;
        if (value > 0){
             checkValue = true;
            System.out.println(checkValue);
-       }System.out.println(checkValue);
+       }else
+       {System.out.println(checkValue);
+        }
     }
     public static void leapYearCheck() {
         short year = 2022;
